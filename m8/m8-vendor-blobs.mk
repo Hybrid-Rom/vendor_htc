@@ -277,6 +277,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
         vendor/htc/m8/proprietary/vendor/lib/libadsprpc.so:/system/vendor/lib/libadsprpc.so \
         vendor/htc/m8/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
+        vendor/htc/m8/proprietary/vendor/lib/libbccQTI.so:/system/vendor/lib/libbccQTI.so \
         vendor/htc/m8/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
         vendor/htc/m8/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
         vendor/htc/m8/proprietary/vendor/lib/libc2d30.so:/system/vendor/lib/libc2d30.so \
@@ -359,7 +360,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/liboemcrypto.so:/system/vendor/lib/liboemcrypto.so \
         vendor/htc/m8/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
         vendor/htc/m8/proprietary/vendor/lib/libOpenVG.so:/system/vendor/lib/libOpenVG.so \
-        vendor/htc/m8/proprietary/vendor/lib/libqcgesture.so:/system/vendor/lib/libqcgesture.so \
         vendor/htc/m8/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/htc/m8/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
         vendor/htc/m8/proprietary/vendor/lib/libQSEEComAPI.so:/system/vendor/lib/libQSEEComAPI.so \
@@ -384,3 +384,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:/system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
         vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
         vendor/htc/m8/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+        vendor/htc/m8/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
+        vendor/htc/m8/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
+        vendor/htc/m8/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
